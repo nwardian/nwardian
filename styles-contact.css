@@ -70,9 +70,9 @@ html, body {
 
 .center {
     width: 80%;
-	padding: 2%;
+	padding: 5%;
     margin: 100px auto;
- 	background: rgba(255, 0, 102, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgb(255, 255, 255, 90%); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px white;
 }
@@ -89,8 +89,8 @@ h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
     font-family: 'BioRhyme', serif;
 	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+    margin: 20px auto 30px auto;
+    color: black;
 }
 
 h2 {
@@ -99,7 +99,7 @@ h2 {
     font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(255, 0, 102);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -108,7 +108,7 @@ p {
 	font-family: 'BioRhyme', serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: black;
 }
     
 nav{
@@ -127,10 +127,11 @@ nav li{
 nav a{
     display:inline-block;
     padding: 10px;
+    background: rgb(255, 0, 102)
     }
 
 a{
-    color: deeppink;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     }
